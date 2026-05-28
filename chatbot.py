@@ -4,12 +4,12 @@ from difflib import get_close_matches
 BOT_NAME = "Nova"
 
 knowledge_base = {
-    "hello": [
-        "Hi! I am Nova, your rule-based AI assistant.",
+   "hello": [
+        "Hi! I am Nova",
         "Hello! How can I help today?"
     ],
     "hi": [
-        "Hi there! Ask me anything about AI, Python, GitHub, or this project."
+        "Hi! I am Nova"
     ],
     "what is your name": [
         f"My name is {BOT_NAME}. I am a rule-based AI chatbot."
@@ -26,6 +26,10 @@ knowledge_base = {
     ],
     "help": [
         "Try asking: what is AI, what is GitHub, what is Python, what is Flask, or what is rule based chatbot."
+    ],
+
+    "thanks":[
+        "You are welcome"
     ],
 
     "what is ai": [
@@ -88,6 +92,7 @@ knowledge_base = {
         "Okay, goodbye!"
     ]
 }
+
 
 
 def clean_text(text):
